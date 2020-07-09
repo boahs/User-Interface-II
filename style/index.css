@@ -1,3 +1,40 @@
 html{
     background-color: slategray ;
 }
+
+a{
+    text-decoration: none;
+}
+
+.one{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0% 92% 5% 5%;
+    
+}
+
+
+
+#about h2{
+margin: 0% 0% 0% 55%;
+}
+
+#about p{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin: 45px 14px 143px 55%;
+}
+
+#about button{
+    display:flex;
+    justify-content: right;
+    font-size:1rem;
+    margin: 0% 0% 0% 55%;
+}
+
+#about img{
+margin: 0px 55px 0px 0px;
+
+}
