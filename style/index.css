@@ -9,32 +9,82 @@ a{
 .one{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0% 92% 5% 5%;
-    
-}
+    align-items: flex-start;
+     
+    }
 
 
 
 #about h2{
-margin: 0% 0% 0% 55%;
-}
-
-#about p{
-    display: flex;
-    justify-content: right;
-    text-align: center;
-    margin: 45px 14px 143px 55%;
+margin: 0% 0% 0% 42%;
 }
 
 #about button{
     display:flex;
     justify-content: right;
     font-size:1rem;
-    margin: 0% 0% 0% 55%;
+    margin: 0% 0% 0% 42%;
 }
 
-#about img{
-margin: 0px 55px 0px 0px;
+#about p{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin: 2% 15% 0% 40%;
+    position: relative;
+}
 
+
+
+#about img{
+margin: -5% 0% 0% 0%;
+}
+
+.images {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+#imageDescription{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+#images {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+ .imageDescription{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h3{
+    text-align: center;
+}
+
+#contactMe{
+    display:flex;
+    justify-content: center;
+}
+
+footer h2{
+    text-align: center;
+}
+
+#social{
+    display:flex;
+    justify-content: center;
+}
+
+.bgColor{
+    background-color: darkslategrey;
 }
