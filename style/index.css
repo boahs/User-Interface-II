@@ -6,6 +6,10 @@ a{
     text-decoration: none;
 }
 
+header{
+    background-color: darkslategrey;
+}
+
 .one{
     display:flex;
     flex-direction: row;
@@ -92,4 +96,39 @@ footer h2{
 
 .aboutMe{
 text-align: center;
+font-size:1.5rem
+}
+
+.favAnimals{
+font-weight: bolder;
+font-size: 1.5rem;
+}
+
+.favEditors{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+    
+.favCode{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#Container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#imgContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#projectDetails{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
 }
