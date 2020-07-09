@@ -32,6 +32,7 @@ margin: 0% 0% 0% 42%;
     text-align: center;
     margin: 2% 15% 0% 40%;
     position: relative;
+    
 }
 
 
@@ -87,4 +88,8 @@ footer h2{
 
 .bgColor{
     background-color: darkslategrey;
+}
+
+.aboutMe{
+text-align: center;
 }
