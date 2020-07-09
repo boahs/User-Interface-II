@@ -132,3 +132,30 @@ font-size: 1.5rem;
     justify-content: space-evenly;
     font-size: 1.5rem;
 }
+
+.pOne {
+  background-color: red;
+}
+
+.pTwo{
+    background-color: rosybrown;
+}
+
+.pThree{
+    background-color: slateblue;
+}
+
+.pOne:hover{
+    text-transform: uppercase;
+    background-color: teal;
+}
+
+.pTwo:hover{
+    text-transform: uppercase;
+    background-color: turquoise;
+}
+
+.pThree:hover{
+    text-transform: uppercase;
+    background-color: violet;
+}
