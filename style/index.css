@@ -25,6 +25,7 @@ body {
   align-items: flex-start;
 }
 
+/* Right hand side pargraph + header for index.html */
 #about {
   display: flex;
   flex-direction: row-reverse;
@@ -59,7 +60,9 @@ body {
   text-align: center;
   margin: -5% 0% 0% 0%;
 }
+/* Right hand side pargraph + header for index.html */
 
+/* Flex images on index.html and paragraph descriptions */
 .images {
   display: flex;
   flex-direction: row;
@@ -87,9 +90,26 @@ body {
   font-size: 1.5rem;
   font-weight: bolder;
 }
+/* Flex images on index.html and paragraph descriptions */
 
+
+/* footer stuff for index.html */
 footer h3 {
   text-align: center;
+}
+
+#contactForm{
+  display: flex;
+  grid-row: auto;
+  justify-content: center;
+  order: -1;
+}
+
+#oneContact{
+  margin: 2% 2% 2% 2%;
+}
+#twoContact{
+  margin: 2% 2% 2% 2%;
 }
 
 #contactMe {
@@ -114,6 +134,11 @@ footer h2 {
   padding: 8px;
 }
 
+/* about.html css  */
+
+
+/* footer stuff for index.html */
+
 .aboutMe {
   text-align: center;
   font-size: 1.5rem;
@@ -134,11 +159,20 @@ footer h2 {
   font-size: 1.5rem;
 }
 
+/* container for about.html */
+
 #Container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/* container for about.html */
+
+/* about.html css  */
+
+/* Projects.html css */
+
 
 #imgContainer {
   display: flex;
@@ -180,7 +214,9 @@ footer h2 {
   background-color: violet;
 }
 
-@media all and (max-width: 650px) {
+/* Projects.html css */
+
+@media all and (max-width: 800px) {
   body {
     font-size: 1.5rem;
   }
@@ -196,6 +232,34 @@ footer h2 {
       width: 100%;
       padding: 3%;
       margin-top: 4%;
+      display: flex;
+      justify-content: center;
+
+
+  }
+
+
+}
+
+@media all and (max-width: 500px) {
+  body {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  footer {
+      flex-shrink: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 3%;
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+
 
   }
 
