@@ -307,6 +307,7 @@ footer h2 {
 @media all and (max-width: 500px) {
   body {
     font-size: 1.5rem;
+    align-items: center;
   }
   h1 {
     font-size: 3rem;
@@ -391,6 +392,10 @@ footer h2 {
 
 #images{
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+  margin: 5% 0% 0% 0%;
 }
 
 
